@@ -59,6 +59,21 @@
       "Tooltip": "Set Preset",
       "UUID": "com.kobaltz.wled.setpreset",
       "PropertyInspectorPath": "properties/set_preset.html"
+	  },
+	{
+      "Icon": "images/power-on",
+      "Name": "Send HTTP Request",
+      "States": [
+        {
+          "Image": "images/power-on",
+          "TitleAlignment": "bottom",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Send HTTP Rest Request",
+      "UUID": "com.kobaltz.wled.sendhttprequest",
+      "PropertyInspectorPath": "properties/send_http_request.html"
     }
   ],
   "SDKVersion": 2,
